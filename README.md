@@ -2,6 +2,8 @@
 
 This is the design where I take inspiration [Whatsapp Chat App Design](https://dribbble.com/shots/26244643-Konnek-Recording-audio-flow)
 
+![WhatsApp app design](https://cdn.dribbble.com/userupload/44006538/file/original-96e97e614ae9636872e7dc5f22d5984e.png?resize=752x&vertical=center)
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
