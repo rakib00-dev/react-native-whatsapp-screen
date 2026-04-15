@@ -9,5 +9,3 @@ export default function App(): JSX.Element {
     </SafeAreaView>
   );
 }
-
-const styles = StyleSheet.create({});
