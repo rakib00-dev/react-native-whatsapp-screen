@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import React from 'react';
 
 export default function HomeChatFilter() {
@@ -23,9 +23,20 @@ export default function HomeChatFilter() {
       navTo: '',
       isActive: false,
     },
+    {
+      name: 'Favourite',
+      navTo: '',
+      isActive: false,
+    },
+    {
+      name: 'Add A Filter',
+      navTo: '',
+      isActive: false,
+    },
   ];
+
   return (
-    <View style={styles.filterContainer}>
+    <ScrollView horizontal style={styles.filterContainer}>
       {chatFilters.map(({ name, navTo, isActive }) => (
         <View key={name} style={styles.filterButtonContainer}>
           <Text
@@ -35,7 +46,7 @@ export default function HomeChatFilter() {
           </Text>
         </View>
       ))}
-    </View>
+    </ScrollView>
   );
 }
 
@@ -49,11 +60,14 @@ const styles = StyleSheet.create({
     fontSize: 15,
     paddingVertical: 5,
     paddingHorizontal: 15,
-    fontWeight: '500',
+    fontWeight: 400,
+    color: '#393939',
     marginVertical: 10,
   },
   filterButtonActive: {
     borderRadius: 20,
+    fontWeight: '500',
+    color: '#000',
     backgroundColor: '#f0f0f0',
   },
   filterButtonContainer: {

@@ -8,10 +8,10 @@ export default function HomeHeader() {
         <View>
           <Text style={styles.heading}>Chats</Text>
         </View>
-        <View style={styles.buttonContainer}>
+        {/* <View style={styles.buttonContainer}>
           <Text>Story</Text>
           <Text>Search</Text>
-        </View>
+        </View> */}
       </View>
     </View>
   );
