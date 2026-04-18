@@ -6,14 +6,14 @@ import HomeChatFilter from '../components/HomeScreen/HomeChatFilter';
 import HomeChatList from '../components/HomeScreen/HomeChatList';
 
 export default function HomeScreen() {
-
-
-  return (  
+  return (
     <SafeAreaView>
-      <ScrollView>
-        <HomeHeader/>
-        <HomeChatFilter/>
-        <HomeChatList/>
+      <ScrollView
+        style={{ backgroundColor: 'white', height: '100%', padding: 20 }}
+      >
+        <HomeHeader />
+        <HomeChatFilter />
+        <HomeChatList />
       </ScrollView>
     </SafeAreaView>
   );

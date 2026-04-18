@@ -6,7 +6,7 @@ import HomeScreen from './src/screens/HomeScreen';
 export default function App(): JSX.Element {
   return (
     <SafeAreaView>
-      <ScrollView>
+      <ScrollView style={{ backgroundColor: 'white', height: '100%' }}>
         <HomeScreen />
       </ScrollView>
     </SafeAreaView>
