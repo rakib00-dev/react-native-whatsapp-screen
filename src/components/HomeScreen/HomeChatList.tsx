@@ -161,10 +161,12 @@ const styles = StyleSheet.create({
   chatCardTextContainer: {
     gap: 5,
   },
+
   chatCardName: {
     fontSize: 15,
     fontWeight: 700,
   },
+
   chatCardMessage: {
     fontSize: 13,
   },
