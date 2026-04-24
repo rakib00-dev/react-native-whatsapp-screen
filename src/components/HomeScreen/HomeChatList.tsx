@@ -105,7 +105,7 @@ export default function HomeChatList() {
     <View style={styles.ChatListContainer}>
       {chatListPeople.map(
         ({ avatar, isSeen, lastMessageTime, latestMessage, name }) => (
-          <View style={styles.chatCardContainer}>
+          <View style={styles.chatCardContainer} key={latestMessage}>
             <View style={styles.chatListLeft}>
               <Image source={{ uri: avatar }} style={styles.ChatImage} />
               <View style={styles.chatCardTextContainer}>
