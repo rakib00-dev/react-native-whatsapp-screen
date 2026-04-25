@@ -6,6 +6,8 @@ import HomeChatFilter from '../components/HomeScreen/HomeChatFilter';
 import HomeChatList from '../components/HomeScreen/HomeChatList';
 
 export default function HomeScreen() {
+  // TODO: Api add
+
   return (
     <SafeAreaView>
       <ScrollView
